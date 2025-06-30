@@ -1,0 +1,36 @@
+.profile-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f9;
+  padding: 20px;
+}
+
+.profile-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.profile-card h2 {
+  text-align: center;
+  color: #2d6a4f;
+  font-size: 1.8rem;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.profile-info strong {
+  color: #2d6a4f;
+}

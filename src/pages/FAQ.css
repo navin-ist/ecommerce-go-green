@@ -1,0 +1,22 @@
+.faq-container {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.accordion-button {
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  transition: all 0.3s ease;
+}

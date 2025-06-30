@@ -1,0 +1,60 @@
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  flex-shrink: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-links a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.footer-icons a:hover {
+  transform: scale(1.1);
+  color: #00ffcc;
+}
+
+/* Ensures the footer stays at the bottom */
+body, html, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
